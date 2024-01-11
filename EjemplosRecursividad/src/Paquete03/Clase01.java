@@ -10,7 +10,7 @@ package Paquete03;
  */
 public class Clase01 {
     public static void main(String[] args) {
-    
+    boolean aldrin_gay = true;
     }
     public static String[][] cadena() {
         String[][] cadena = {{"LOJA", "CUENCA", "QUITO"},

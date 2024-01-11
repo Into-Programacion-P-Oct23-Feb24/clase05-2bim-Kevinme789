@@ -16,18 +16,24 @@ public class Ejemplo06 {
         // [1][1]
         // hasta el final
         
+        // En este ciclo repetitivo directamente se llama a la funcion 
+        // obtener suma, que se imprime al retornar un valor de tipo double
         for (int i = 0; i < valor1.length; i++) {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(valor1[i], valor2[i]));
         }
-        
+        // Declaramos 2 variables nuevas que le vamos a dar el valor que tenga en 
+        // el momento el arreglo despues imprimimos la funcion obtenerSuma con esos
+        // parametros
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
             int num2 = valor2[i];
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(num1, num2));
         }
-        
+        // Declaramos 2 variables nuevas que le vamos a dar el valor que tenga en 
+        // el momento el arreglo despues el valor a la variable ¨suma¨ de la
+        // funcion obtenerSuma con esos parametros, e imprimimos
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
             int num2 = valor2[i];
