@@ -17,9 +17,9 @@ public class Ejemplo07 {
         // se debería presentar el resultado de
         // 2 elevado a la potencia 2 (cuadrado)
         // 2 elevado a la potencia 3 (cubo)
-        for(int i = 0; i < valores.length;i++){
-        for(int c = 0; c < valores.length;i++){
-         System.out.println(obtenerPotencia(valores[i], potencias[c]));
+        for(int i = 0; i < potencias.length;i++){
+        for(int c = 0; c < valores.length;c++){
+         System.out.println(obtenerPotencia(valores[c],potencias[i]));
         }
         }
     }
